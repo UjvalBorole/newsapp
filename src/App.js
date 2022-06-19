@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 import NavBar from './component/Navbar';
 import News  from './component/News';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,Routes
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
